@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <form action="/logout" method="post">
+      <button type="submit" class="p-[10px] min-w-[130px] bg-blue-500 text-white rounded-lg">Logout</button>
+    </form>
+
+  </body>
+</html>

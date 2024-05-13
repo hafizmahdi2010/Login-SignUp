@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  
+  <div class="main w-screen min-h-screen bg-zinc-900 text-white">
+
+    <form action="/signUp" method="post" class=" p-[20px]">
+      <input class="p-[10px] min-w-[300px] border-0 outline-0 bg-zinc-700 text-white" type="text" placeholder="Username" id="username" name="username">
+      <input class="p-[10px] min-w-[300px] border-0 outline-0 bg-zinc-700 text-white" type="text" placeholder="Name" id="name" name="name">
+      <input class="p-[10px] min-w-[300px] border-0 outline-0 bg-zinc-700 text-white" type="text" placeholder="Email" id="email" name="email">
+      <input autocomplete="new-password" class="p-[10px] min-w-[300px] border-0 outline-0 bg-zinc-700 text-white" type="password" placeholder="Password" id="password" name="password">
+      
+      <button type="submit" class="p-[10px] min-w-[130px] bg-blue-500 text-white rounded-lg">Sign Up</button>
+    
+    </form>
+    
+  </div>
+</body>
+</html>
